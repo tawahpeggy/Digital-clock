@@ -7,17 +7,7 @@ div {
     position: absolute;
  background-color: black;
  color: white;
- /* width: 35%;
- height: 20%;
- margin: auto;
- padding-top: 50px;
- padding-bottom: 50px;
- font-family: 'Open Sans Condensed', sans-serif;
- font-size: 64px;
- text-align: center; */
  padding: 1rem;
  border-radius: 1rem;
- /* top: 20rem;
- left: 40rem; */
  box-shadow: 0 4px 8px 0 rgba(156, 151, 151, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
