@@ -19,6 +19,8 @@ function digitalClock() {
     }
 var weekdays = ['Sun ','Mon ','Tue ', 'wed ', 'Thu ', 'Fri ', 'sat'];    
 var clock = weekdays[day] +  hours + ':' + minutes + ':' + seconds;
+document.getElementById('clock').innerHTML = clock;
 console.log(clock);
 }
 digitalClock();
+setInterval(digitalClock,1000);
