@@ -17,7 +17,8 @@ function digitalClock() {
     if (seconds.length < 2) {
         seconds = '0' + seconds;
     }
-var clock = hours + ':' + minutes + ':' + seconds;
+var weekdays = ['Sun ','Mon ','Tue ', 'wed ', 'Thu ', 'Fri ', 'sat'];    
+var clock = weekdays[day] +  hours + ':' + minutes + ':' + seconds;
 console.log(clock);
 }
 digitalClock();
